@@ -1,0 +1,88 @@
+
+body::before{
+    display: block;
+    content: '';
+    height: 80px;
+}
+@media(min-width:768px){
+    #hero{
+        height: 500px;
+    }
+}
+.contain{
+    text-align: center;
+    box-shadow: .1rem .1rem 1rem black;
+    font-size: .5rem;
+    margin: auto .4rem;
+}
+.contain h1{
+    font-size: 1rem;
+    color: black;
+}
+/*------------acvhivement----------------*/
+#achi{
+    background: linear-gradient(rgba(0, 0, 255, 0.357),rgba(0, 0, 255, 0.357)),url(one\ \(4\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#achi .none{
+   
+   margin-bottom: 2rem
+}
+
+#achi .achi .sets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    
+}
+#achi .achi .sets .set{
+    margin: 4rem 6rem;
+
+    
+}
+#achi .achi .sets .set p{
+    font-size: 1.2rem;
+}
+@media only screen and (max-width: 500px){
+    /*----------achi----------------*/
+    #achi{
+        background: linear-gradient(rgba(0, 0, 255, 0.357),rgba(0, 0, 255, 0.357)),url(one\ \(4\).jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 340px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    #achi .none{
+       
+       margin-bottom: 2rem
+    }
+    
+    #achi .achi .sets{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -3rem;
+        
+    }
+    #achi .achi .sets .set{
+        margin: 3rem .3rem;
+    
+        
+    }
+    #achi .achi .sets .set p{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,31 @@
+.centerpp{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+}
+.flex{
+    display: flex;
+    margin: auto 4rem;
+} 
+.card{
+    margin: auto 5rem;
+    width: 18rem;
+}
+@media(max-width:500px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin: none;
+    }
+    .card{
+        width: 16rem;
+        margin: auto -22%;
+    }
+}
+body::before{
+    display: block;
+    content: '';
+    height: 80px;
+} 
